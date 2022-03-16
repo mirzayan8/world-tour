@@ -1,0 +1,110 @@
+/*----------+all common css start+---------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+li,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: #020269;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 40px;
+}
+
+section {
+    width: 100%;
+}
+
+.search-bar{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+.search-bar div input,button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+.search-bar div button{
+    background-color: #0D6EFD;
+    font-size: 17px;
+    font-weight: 500;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+.search-bar div button:hover{
+    background-color: #f10808;
+    transition: all linear .3s;
+}
+.search-bar div input:focus{
+border: 2px solid #f10808;
+transition: all linear .3s;
+}
+.search-bar div input{
+border: 2px solid transparent;
+}
+#mirza{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+}
+.mirzaStyle{
+    margin: 20px;
+    padding: 35px;
+    background-color: #01018B;
+    color: aliceblue;
+    border-radius: 8px;
+    font-family: 'Bebas Neue', cursive;
+    height: 80%;
+    
+}
+.mirzaStyle img {
+    width: 20%;
+    margin-bottom: 10px;
+    margin-left: 5px;
+   
+}
+.mirzaStyle p {
+    margin: 5px;
+}
+.mirzaStyle:hover{
+    box-shadow: 0 0 4px 3px #fff;
+    transition: all linear .6s;
+}
